@@ -76,11 +76,13 @@ void displayTrafficLight(char vehicleLight[],char pedestrianLight[], int timer) 
 ### Red Light Phase
 ```
 TRAFFIC LIGHTS:
+--------------------
 Red    : ON
 Yellow : OFF
 Green  : OFF
 
 PEDESTRIAN SIGNAL:
+--------------------
 Walk   : ON
 Stop   : OFF
 
@@ -90,11 +92,13 @@ TIME REMAINING: 5 seconds
 ### Yellow Light Phase
 ```
 TRAFFIC LIGHTS:
+--------------------
 Red    : OFF
 Yellow : ON
 Green  : OFF
 
 PEDESTRIAN SIGNAL:
+--------------------
 Walk   : OFF
 Stop   : ON
 
@@ -104,11 +108,13 @@ TIME REMAINING: 2 seconds
 ### Green Light Phase
 ```
 TRAFFIC LIGHTS:
+--------------------
 Red    : OFF
 Yellow : OFF
 Green  : ON
 
 PEDESTRIAN SIGNAL:
+--------------------
 Walk   : OFF
 Stop   : ON
 
