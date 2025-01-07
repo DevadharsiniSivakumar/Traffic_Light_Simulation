@@ -36,15 +36,17 @@ It demonstrates the functioning of traffic lights and pedestrian signals with co
 
 ### Code Snippet
 ```c
-void displayTrafficLight(const char *vehicleLight, const char *pedestrianLight, int timer) {
+void displayTrafficLight(char vehicleLight[],char pedestrianLight[], int timer) {
     clearConsole();
 
     printf("TRAFFIC LIGHTS:\n");
+    printf("--------------------\n");
     printf("Red    : %s\n", (vehicleLight == "Red") ? "ON" : "OFF");
     printf("Yellow : %s\n", (vehicleLight == "Yellow") ? "ON" : "OFF");
     printf("Green  : %s\n", (vehicleLight == "Green") ? "ON" : "OFF");
 
     printf("\nPEDESTRIAN SIGNAL:\n");
+    printf("----------------------\n");
     printf("Walk   : %s\n", (pedestrianLight == "Walk") ? "ON" : "OFF");
     printf("Stop   : %s\n", (pedestrianLight == "Stop") ? "ON" : "OFF");
 
